@@ -1,0 +1,60 @@
+@media only screen and (max-width: 1000px) {
+  
+  #tribute-info {
+    flex-direction: column;
+  }
+  
+  #awards {
+    padding-bottom: 1.875rem;
+  }
+}
+
+html {
+  background-color: #e4e4e4;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Image */
+
+#img-div {
+  background: #ffffff;
+  border-radius: 0.3125rem;
+  width: auto;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 25%;
+}
+
+#image {
+  padding:  1.25rem;
+}
+
+#img-caption {
+  padding-bottom:  1.25rem;
+}
+
+/* Body */
+
+#tribute-info {
+  display: flex;
+  width: auto;
+}
+
+#timeline {
+  flex: 0 0 75%;
+  text-align: left;
+}
+
+#awards {
+  background: #ffffff;
+  border-radius: 0.3125rem;
+  flex: 1;
+  overflow: hidden;
+  padding-bottom: 1.875rem;
+  text-align: left;
+}
