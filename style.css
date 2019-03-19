@@ -21,7 +21,6 @@ html {
 #img-div {
   background: #ffffff;
   border-radius: 0.3125rem;
-  width: auto;
 }
 
 img {
@@ -42,7 +41,6 @@ img {
 
 #tribute-info {
   display: flex;
-  width: auto;
 }
 
 #timeline {
@@ -54,7 +52,6 @@ img {
   background: #ffffff;
   border-radius: 0.3125rem;
   flex: 1;
-  overflow: hidden;
   padding-bottom: 1.875rem;
   text-align: left;
 }
