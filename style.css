@@ -26,7 +26,7 @@ img {
   height: auto;
   margin: auto;
   max-width: 100%;
-  padding:  1.25rem;
+  padding: 1.25rem;
 }
 
 .img-caption {
@@ -41,28 +41,30 @@ img {
   display: flex;
 }
 
-.timeline {
+.characteristics {
   box-sizing: border-box;
   flex: 0 0 75%;
+  padding: 0 0.5rem 0 2rem;
   text-align: left;
 }
 
-.awards {
+.complexity {
   background: #fff;
   border-radius: 0.3125rem;
   box-shadow: 3px 3px 3px #0000001a;
   box-sizing: border-box;
   flex: 1;
-  padding-bottom: 1.875rem;
+  height: 50%;
+  margin: 2.5rem auto;
+  padding: 0 0.5rem 2rem 2rem;
   text-align: left;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 67.125rem) {
+
   .tribute-info {
+    align-items: center; 
     flex-direction: column;
   }
-
-  .awards {
-    padding-bottom: 1.875rem;
-  }
+  
 }

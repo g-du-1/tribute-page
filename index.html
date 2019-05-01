@@ -4,37 +4,42 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<title>Tribute to Tony Hoare</title>
+<title>Tribute Page</title>
 
 <div id="main" class="main">
-  <h1 id="title" class="title">Tony Hoare</h1>
+  <h1 id="title" class="title">Quicksort</h1>
   <div id="img-div" class="img-div">
-    <img id="image" class="image" src="photo.jpg" width="500px" height="280px" alt="Tony Hoare">
-    <div id="img-caption" class="img-caption">The inventor of Quicksort</div>
+    <img id="image" class="image" src="photo.jpg" width="500px" height="280px" alt="Visualization">
+    <div id="img-caption" class="img-caption">Visualization</div>
   </div>
   <div id="tribute-info" class="tribute-info">
-    <ul id="timeline" class="timeline">
-      <h2>Timeline</h2>
-      <li><strong>1934</strong> - Born - 11 January, Colombo, Sri Lanka</li>
-      <li><strong>1956</strong> - Earned a Bachelor’s degree in classics from the University of Oxford</li>
-      <li><strong>1956</strong> - Started studying Russian during his national service in the Royal Navy</li>
-      <li><strong>1959</strong> - Moved to Russia for graduate work in probability and theory and computer translation of human languages at Moscow State University. He devised <strong>Quicksort</strong> during this time </li>
-      <li><strong>1960</strong> - Returned to England and joined Elliot Brothers, Ltd where he worked on a compiler for ALGOL</li>
-      <li><strong>1968</strong> - Accepted a professorship in computer science at Queen's University of Belfast</li>
-      <li><strong>1977</strong> - Returned to Oxford as a computer science professor</li>
-      <li><strong>1999</strong> - He became Senior Researcher at Microsoft in Cambridge after his retirement from Oxford
+    <ul id="characteristics" class="characteristics">
+      <h2>Characteristics</h2>
+      <li>Developed by British computer scientist Tony Hoare in 1959 and published in 1961.</li>
+      <li>It partitions the input array to two sub-arrays, then sorts each subarray recursively.</li>
+      <li>When implemented well, it can be about two or three times faster than its main competitors, merge sort and heapsort.</li>
+      <li>In efficient implementations it is not a stable sort.</li>
+      <li>It is a divide and conquer algorithm.</li>
+      <li>Can operate in-place on an array, requiring small additional amounts of memory to perform the sorting.</li>
+      <li>Gained widespread adoption, appearing, for example, in Unix as the default library sort subroutine. Hence, it lent its name to the C standard library subroutine qsort and in the reference implementation of Java.</li>
+      <li>The pivot selection and partitioning steps can be done in several different ways, the choice of specific implementation schemes greatly affects the algorithm's performance.</li>
+      <li>On average, quicksort performs only about 39% worse than in its best case. In this sense, it is closer to the best case than the worst case. This fast average runtime is another reason for quicksort's practical dominance over other sorting algorithms.</li>
     </ul>
-    <ul id="awards" class="awards">
-      <h3>Awards and honors</h3>
-      <li>1980 - Turing Award</li>
-      <li>1982 - Elected Fellow of the Royal Society</li>
-      <li>1985 - Michael Faraday Medal And Prize</li>
-      <li>2000 - Kyoto Prize</li>
-      <li>2000 - Knighthood for service in computer science</li>
+    <ul id="complexity" class="complexity">
+      <h3>Time and space complexity</h3>
+      <li>Worst case: O(n^2) - this behavior is rare</li>      
+      <li>Average case: O(n log(n))</li>
+      <li>Best case - Simple partition: O(n log(n))</li>
+      <li>Best case - Three-way partition and equal keys: O(n)</li>
+      <li>Worst case space - Auxiliary (naive): O(n)</li>
+      <li>Worst case space - Auxiliary (Sedgewick 1978): O(log(n))</li>
     </ul>
   </div>
   <blockquote><i>“There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies. The first method is far more difficult.”</i> - Tony Hoare</blockquote>
-  <div>More information on <a href="https://en.wikipedia.org/wiki/Tony_Hoare" id="tribute-link" class="tribute-link" target="_blank">Wikipedia</a></div>
+  <div>
+    <p>More information on <a href="https://en.wikipedia.org/wiki/Quicksort" id="tribute-link" class="tribute-link" target="_blank">Wikipedia</a></p>
+    <p>Image source: Simpsons contributor on Wikimedia Commons</p>
+  </div>
 </div>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>
