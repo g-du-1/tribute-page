@@ -13,27 +13,32 @@
     <div id="img-caption" class="img-caption">Visualization</div>
   </div>
   <div id="tribute-info" class="tribute-info">
-    <ul id="characteristics" class="characteristics">
+    <section id="characteristics" class="characteristics">
       <h2>Characteristics</h2>
-      <li>Developed by British computer scientist Tony Hoare in 1959 and published in 1961.</li>
-      <li>It partitions the input array to two sub-arrays, then sorts each subarray recursively.</li>
-      <li>When implemented well, it can be about two or three times faster than its main competitors, merge sort and heapsort.</li>
-      <li>In efficient implementations it is not a stable sort.</li>
-      <li>It is a divide and conquer algorithm.</li>
-      <li>Can operate in-place on an array, requiring small additional amounts of memory to perform the sorting.</li>
-      <li>Gained widespread adoption, appearing, for example, in Unix as the default library sort subroutine. Hence, it lent its name to the C standard library subroutine qsort and in the reference implementation of Java.</li>
-      <li>The pivot selection and partitioning steps can be done in several different ways, the choice of specific implementation schemes greatly affects the algorithm's performance.</li>
-      <li>On average, quicksort performs only about 39% worse than in its best case. In this sense, it is closer to the best case than the worst case. This fast average runtime is another reason for quicksort's practical dominance over other sorting algorithms.</li>
-    </ul>
-    <ul id="complexity" class="complexity">
+      <ul>
+        <li>Developed by British computer scientist Tony Hoare in 1959 and published in 1961.</li>
+        <li>It partitions the input array to two sub-arrays, then sorts each subarray recursively.</li>
+        <li>When implemented well, it can be about two or three times faster than its main competitors, merge sort and heapsort.</li>
+        <li>In efficient implementations it is not a stable sort.</li>
+        <li>It is a divide and conquer algorithm.</li>
+        <li>Can operate in-place on an array, requiring small additional amounts of memory to perform the sorting.</li>
+        <li>Gained widespread adoption, appearing, for example, in Unix as the default library sort subroutine. Hence, it lent its name to the C standard library subroutine qsort and in the reference implementation of Java.</li>
+        <li>The pivot selection and partitioning steps can be done in several different ways, the choice of specific implementation schemes greatly affects the algorithm's performance.</li>
+        <li>On average, quicksort performs only about 39% worse than in its best case. In this sense, it is closer to the best case than the worst case. This fast average runtime is another reason for quicksort's practical dominance over other sorting algorithms.</li>
+      </ul>
+    </section>
+
+    <section id="complexity" class="complexity">
       <h3>Time and space complexity</h3>
-      <li>Worst case: O(n^2) - this behavior is rare</li>      
-      <li>Average case: O(n log(n))</li>
-      <li>Best case - Simple partition: O(n log(n))</li>
-      <li>Best case - Three-way partition and equal keys: O(n)</li>
-      <li>Worst case space - Auxiliary (naive): O(n)</li>
-      <li>Worst case space - Auxiliary (Sedgewick 1978): O(log(n))</li>
-    </ul>
+      <ul>
+        <li>Worst case: O(n^2) - this behavior is rare</li>      
+        <li>Average case: O(n log(n))</li>
+        <li>Best case - Simple partition: O(n log(n))</li>
+        <li>Best case - Three-way partition and equal keys: O(n)</li>
+        <li>Worst case space - Auxiliary (naive): O(n)</li>
+        <li>Worst case space - Auxiliary (Sedgewick 1978): O(log(n))</li>
+      </ul>
+    </section>
   </div>
   <blockquote><i>“There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies. The first method is far more difficult.”</i> - Tony Hoare</blockquote>
   <div>

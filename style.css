@@ -36,6 +36,10 @@ img {
 
 /* Body */
 
+ul {
+  padding: 0;
+}
+
 .tribute-info {
   box-sizing: border-box;
   display: flex;
