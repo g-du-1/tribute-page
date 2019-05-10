@@ -66,7 +66,7 @@ h2 {
 }
 
 h3 {
-  margin-left: 1.5rem;
+  margin-left: 1rem;
 }
 
 .complexity {
@@ -79,6 +79,10 @@ h3 {
   margin: 1.25rem auto;
   padding: 0 1rem 0.5rem 0;
   text-align: left;
+}
+
+.complexity ul {
+  padding-left: 2rem;
 }
 
 @media only screen and (min-width: 66.75rem) {
