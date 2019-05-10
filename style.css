@@ -11,13 +11,20 @@ body {
   text-align: center;
 }
 
+/* Title */
+
+.title {
+  margin: 1.35rem 0.5rem;
+}
+
 /* Image */
 
 .img-div {
   background: #fff;
-  border-radius: 0.3125rem;
+  border-radius: 5px;
   box-shadow: 3px 3px 3px #0000001a;
   box-sizing: border-box;
+  margin: 0 0.5rem;
 }
 
 img {
@@ -36,36 +43,37 @@ img {
 
 /* Body */
 
-ul {
-  padding: 0;
-}
-
 .tribute-info {
   box-sizing: border-box;
   display: flex;
+  margin: 0 0.5rem;
 }
 
 .characteristics {
   box-sizing: border-box;
   flex: 0 0 75%;
-  padding: 0 0.5rem 0 2rem;
+  padding-right: 0.5rem;
   text-align: left;
+}
+
+h2 {
+  margin: 1.25rem 1.5rem;
+}
+
+h3 {
+  margin-left: 1.5rem;
 }
 
 .complexity {
   background: #fff;
-  border-radius: 0.3125rem;
+  border-radius: 5px;
   box-shadow: 3px 3px 3px #0000001a;
   box-sizing: border-box;
   flex: 1;
   height: 50%;
-  margin: 2.5rem auto;
-  padding: 0 0.5rem 1rem 2rem;
+  margin: 1.25rem 0;
+  padding: 0 1rem 0.5rem 0;
   text-align: left;
-}
-
-h3 {
-  margin: 1rem 0;
 }
 
 @media only screen and (max-width: 67.125rem) {
