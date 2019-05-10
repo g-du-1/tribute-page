@@ -57,8 +57,12 @@ img {
   text-align: left;
 }
 
+.characteristics ul {
+  padding-left: 1rem;
+}
+
 h2 {
-  margin: 1.25rem 1.5rem;
+  margin: 1.25rem 0;
 }
 
 h3 {
