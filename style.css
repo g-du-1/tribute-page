@@ -13,7 +13,9 @@ body {
 
 /* Title */
 
-.title { margin: 1.35rem 0.5rem; }
+.title {
+  margin: 1.35rem 0.5rem;
+}
 
 /* Image */
 
@@ -55,11 +57,17 @@ img {
   text-align: left;
 }
 
-.characteristics ul { padding-left: 1rem; }
+.characteristics ul {
+  padding-left: 1rem;
+}
 
-h2 { margin: 1.25rem 0; }
+h2 {
+  margin: 1.25rem 0;
+}
 
-h3 { margin-left: 1rem; }
+h3 {
+  margin-left: 1rem;
+}
 
 .complexity {
   background: #fff;
@@ -73,8 +81,12 @@ h3 { margin-left: 1rem; }
   text-align: left;
 }
 
-.complexity ul { padding-left: 2rem; }
+.complexity ul {
+  padding-left: 2rem;
+}
 
 @media only screen and (min-width: 66.75rem) {
-  .tribute-info { flex-direction: row; }
+  .tribute-info {
+    flex-direction: row;
+  }
 }
