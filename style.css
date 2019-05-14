@@ -50,23 +50,19 @@ body {
   margin: 0 0.5rem;
 }
 
-.info__characteristics {
+.info__chsticks {
   box-sizing: border-box;
   flex: 0 0 75%;
   padding-right: 0.5rem;
   text-align: left;
 }
 
-.info__characteristics-list {
-  padding-left: 1rem;
-}
-
-h2 {
+.info__chsticks-hdr {
   margin: 1.25rem 0;
 }
 
-h3 {
-  margin-left: 1rem;
+.info__chsticks-list {
+  padding-left: 1rem;
 }
 
 .info__complexity {
@@ -79,6 +75,10 @@ h3 {
   margin: 1.25rem auto;
   padding: 0 1rem 0.5rem 0;
   text-align: left;
+}
+
+.info__complexity-hdr {
+  margin-left: 1rem;
 }
 
 .info__complexity-list {
