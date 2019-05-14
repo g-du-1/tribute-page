@@ -10,13 +10,13 @@
 <div class="main" id="main">
   <h1 class="title" id="title">Quicksort</h1>
   <div class="img-div" id="img-div">
-    <img class="image" id="image" src="photo.jpg" width="500" height="333" alt="Visualization">
-    <div class="img-caption" id="img-caption">Visualization</div>
+    <img class="img-div__img" id="image" src="photo.jpg" width="500" height="333" alt="Visualization">
+    <div class="img-div__caption" id="img-caption">Visualization</div>
   </div>
-  <div class="tribute-info" id="tribute-info">
-    <section class="characteristics" id="characteristics">
+  <div class="info" id="tribute-info">
+    <section class="info__characteristics" id="characteristics">
       <h2>Characteristics</h2>
-      <ul>
+      <ul class="info__characteristics-list"> <!-- class IDE? -->
         <li>Developed by British computer scientist Tony Hoare in 1959 and published in 1961.</li>
         <li>It partitions the input array to two sub-arrays, then sorts each subarray recursively.</li>
         <li>When implemented well, it can be about two or three times faster than its main competitors, merge sort and heapsort.</li>
@@ -28,9 +28,9 @@
         <li>On average, quicksort performs only about 39% worse than in its best case. In this sense, it is closer to the best case than the worst case. This fast average runtime is another reason for quicksort's practical dominance over other sorting algorithms.</li>
       </ul>
     </section>
-    <section class="complexity" id="complexity">
+    <section class="info__complexity" id="complexity">
       <h3>Time and space complexity</h3>
-      <ul>
+      <ul class="info__complexity-list">
         <li>Worst case: O(n^2) - this behavior is rare</li>      
         <li>Average case: O(n log(n))</li>
         <li>Best case - Simple partition: O(n log(n))</li>

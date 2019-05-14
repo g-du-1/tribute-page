@@ -27,7 +27,7 @@ body {
   margin: 0 0.5rem;
 }
 
-img {
+.img-div__img {
   box-sizing: border-box;
   display: block;
   height: auto;
@@ -36,28 +36,28 @@ img {
   padding: 1.25rem;
 }
 
-.img-caption {
+.img-div__caption {
   box-sizing: border-box;
   padding-bottom: 1.25rem;
 }
 
 /* Body */
 
-.tribute-info {
+.info {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   margin: 0 0.5rem;
 }
 
-.characteristics {
+.info__characteristics {
   box-sizing: border-box;
   flex: 0 0 75%;
   padding-right: 0.5rem;
   text-align: left;
 }
 
-.characteristics ul {
+.info__characteristics-list {
   padding-left: 1rem;
 }
 
@@ -69,7 +69,7 @@ h3 {
   margin-left: 1rem;
 }
 
-.complexity {
+.info__complexity {
   background: #fff;
   border-radius: 5px;
   box-shadow: 3px 3px 3px #0000001a;
@@ -81,12 +81,12 @@ h3 {
   text-align: left;
 }
 
-.complexity ul {
+.info__complexity-list {
   padding-left: 2rem;
 }
 
 @media only screen and (min-width: 66.75rem) {
-  .tribute-info {
+  .info {
     flex-direction: row;
   }
 }
