@@ -3,7 +3,6 @@
 html,
 body {
   background-color: #f5f5f5;
-  box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   height: 100%;
@@ -23,7 +22,6 @@ body {
   background: #fff;
   border-radius: 5px;
   box-shadow: 3px 3px 3px #0000001a;
-  box-sizing: border-box;
   margin: 0 0.5rem;
 }
 
@@ -37,31 +35,28 @@ body {
 }
 
 .img-div__caption {
-  box-sizing: border-box;
   padding-bottom: 1.25rem;
 }
 
 /* Body */
 
 .info {
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   margin: 0 0.5rem;
 }
 
-.info__chsticks {
-  box-sizing: border-box;
+.info__characteristics {
   flex: 0 0 75%;
   padding-right: 0.5rem;
   text-align: left;
 }
 
-.info__chsticks-hdr {
+.info__characteristics-hdr {
   margin: 1.25rem 0;
 }
 
-.info__chsticks-list {
+.info__characteristics-list {
   padding-left: 1rem;
 }
 
@@ -69,7 +64,6 @@ body {
   background: #fff;
   border-radius: 5px;
   box-shadow: 3px 3px 3px #0000001a;
-  box-sizing: border-box;
   flex: 1;
   height: 50%;
   margin: 1.25rem auto;
