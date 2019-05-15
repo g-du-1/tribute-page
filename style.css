@@ -64,6 +64,7 @@ body {
   background: #fff;
   border-radius: 5px;
   box-shadow: 3px 3px 3px #0000001a;
+  box-sizing: border-box;
   flex: 1;
   height: 50%;
   margin: 1.25rem auto;
